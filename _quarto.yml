@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "options"
+  author: "张晨阳"
+  date: "2/6/2023"
+  chapters:
+    - index.qmd
+    - part: docs/three/index.md
+      chapters: 
+        - docs/three/basic.md
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
